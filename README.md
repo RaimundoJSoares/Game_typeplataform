@@ -1,2 +1,4 @@
-# Game_typeplataform
+# Plataform Game startet project
+
+Enjoy!
  
