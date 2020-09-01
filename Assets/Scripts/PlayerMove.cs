@@ -6,6 +6,8 @@ public class PlayerMove : MonoBehaviour
 {
     public Rigidbody2D rb;
 
+    public Animator anim;
+
     public float velocity = 1;
 
     // Start is called before the first frame update
@@ -41,5 +43,7 @@ public class PlayerMove : MonoBehaviour
 
 
 
+        //Animação de movimento
+        anim.SetBool("Run", Mathf.Abs(rb.velocity.x) > 0);
     }
 }
