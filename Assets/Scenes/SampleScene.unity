@@ -246,6 +246,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5172680989835674174}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &807355091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 807355092}
+  m_Layer: 0
+  m_Name: GroundDetector (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &807355092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807355091}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.151, y: -0.404, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2090725725}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &819439551 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7307535518348919867, guid: ec66ea934e9bee24cb48a81a98c0a769,
@@ -288,6 +318,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8239170868619855005}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1649800214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1649800215}
+  m_Layer: 0
+  m_Name: GroundDetector (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1649800215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649800214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.139, y: -0.404, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2090725725}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1985875110 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7307535518348919867, guid: ec66ea934e9bee24cb48a81a98c0a769,
@@ -455,9 +515,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090725722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.25, y: 2.5, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
-  m_Children: []
+  m_LocalPosition: {x: -5.81, y: 1.01, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 807355092}
+  - {fileID: 1649800215}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -527,7 +589,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 2090725727}
   JumpForce: 350
-  distance: 0.75
+  distance: 0.5
+  GroundDetector1: {fileID: 807355092}
+  GroundDetector2: {fileID: 1649800215}
 --- !u!4 &2109316420 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7307535518348919867, guid: ec66ea934e9bee24cb48a81a98c0a769,
