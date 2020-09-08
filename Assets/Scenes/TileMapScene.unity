@@ -38579,6 +38579,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mace (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6348501503675076066, guid: 2c5af0b7fa5e5fb408afdca8d32335ae,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c5af0b7fa5e5fb408afdca8d32335ae, type: 3}
 --- !u!1001 &1469730273
@@ -38672,6 +38677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mace (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348501503675076066, guid: 2c5af0b7fa5e5fb408afdca8d32335ae,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c5af0b7fa5e5fb408afdca8d32335ae, type: 3}
@@ -38827,6 +38837,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mace (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6348501503675076066, guid: 2c5af0b7fa5e5fb408afdca8d32335ae,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c5af0b7fa5e5fb408afdca8d32335ae, type: 3}
 --- !u!1 &1799891667 stripped
@@ -38942,6 +38957,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mace (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348501503675076066, guid: 2c5af0b7fa5e5fb408afdca8d32335ae,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c5af0b7fa5e5fb408afdca8d32335ae, type: 3}
@@ -39131,6 +39151,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mace (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6348501503675076066, guid: 2c5af0b7fa5e5fb408afdca8d32335ae,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c5af0b7fa5e5fb408afdca8d32335ae, type: 3}
 --- !u!1 &2090725722
@@ -39148,6 +39173,7 @@ GameObject:
   - component: {fileID: 2090725726}
   - component: {fileID: 2090725728}
   - component: {fileID: 2090725729}
+  - component: {fileID: 2090725730}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -39311,6 +39337,19 @@ MonoBehaviour:
   distance: 0.5
   GroundDetector1: {fileID: 807355092}
   GroundDetector2: {fileID: 1649800215}
+--- !u!114 &2090725730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090725722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d052c6c42e0d14fa606ebe562c306f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ydeath: -12
 --- !u!1001 &3610112485298490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39402,6 +39441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mace
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348501503675076066, guid: 2c5af0b7fa5e5fb408afdca8d32335ae,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c5af0b7fa5e5fb408afdca8d32335ae, type: 3}
